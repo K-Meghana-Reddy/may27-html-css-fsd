@@ -1,0 +1,25 @@
+ #img{
+        background-color: blanchedalmond;
+        display: block;
+        text-align: center;
+        margin:auto;
+    }
+    nav{
+        text-align: center;
+    }
+    nav a{
+        text-align: center;
+        color:blue;
+        display: inline-block;
+        padding:8px;
+        
+    }
+    a:hover{
+       color:black;
+    }
+    p{
+        margin: 20px;
+        text-align: center;
+        font-size: 20px;
+        color: brown;
+    }
