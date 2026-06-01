@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h3 style=";font-size: 40px;font-weight: bold;text-align: center;">SOCIETY SURVEY & POLLING MANAGEMENT SYSTEM</h3>
+    <h4 style="color:brown;font-size: 30px;font-weight: bold;text-align: center;">Resident Registration Form</h4>
+    <p style="color:black;font-size:25px"> Create Your Account
+    <br>
+    <br>
+    Please fill in the details below to register as a society resident.
+    </pre>
+</p>
+<form id="reg">
+    <ul>
+        Full Name:<li><input type ="text" id = "name" placeholder="Enter Full Name:" required></li>
+        Flat/House No:<li><input type ="address" id = "address" placeholder="Enter House No:" required></li>
+        Email Id:<li><input type ="email" id = "emailid" placeholder="Enter Email Id:" required></li>
+        Phone No:<li><input type ="tel" id = "mobileno" placeholder="Enter Phone No:" required></li>
+        Password:<li><input type ="password" id = "pass" placeholder="Enter Password:" required></li>
+    </ul>
+    <h3 class = "purpose">Resident Type</h3>
+    Owner<input type = "radio" id="owner" name="res" value="Owner">
+    Tenant<input type = "radio" id="tenant" name="res" value="tenant">
+    <br>
+    <br>
+    <button>Register</button>
+    <button><a href="./login.html">Login</a></button>
+</form>
+</body>
+</html>
