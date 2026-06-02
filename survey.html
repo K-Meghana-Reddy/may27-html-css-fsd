@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1 style="font-size: 30px;color: chocolate;text-align: center;">SOCIETY SURVEY</h1>
+    <p>Please share your feedback to help improve
+our community services.</p>
+    <div class ="flex-box">
+        <form id ="reg" class="formm" style="text-align: center;font-size: 17px;"><br>
+            <div>
+            <h4>Cleanliness Satisfaction</h4>
+            4<input type="radio" name="clean" id="e" value="4">
+            3<input type="radio" name="clean" id="vg" value="3">
+            2<input type="radio" name="clean" id="g" value="2">
+            1<input type="radio" name="clean" id="p" value="1">
+            <br>
+            </div>
+            <div>
+            <h4>Service FeedBack</h4><br>
+            Security<input type="checkbox" name="clean1" value="4">
+            Availability<input type="checkbox" name="clean2" value="3">
+            Management<input type="checkbox" name="clean3" value="2">
+            <br>
+            </div>
+            <div>
+            <h4>Parking Issues</h4>
+            <br>
+            <select aria-label="Issue">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="both">Both</option>
+            </select>
+            </div>
+            <div>
+            <h4>Suggestions</h4>
+            <textarea name="feedback" rows="4" placeholder="Enter your feedback" aria-label="Suggest"></textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
