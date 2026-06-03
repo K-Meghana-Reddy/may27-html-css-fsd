@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        .anime{
+            border: 3px solid balck;
+            height:1000px;
+            width:100%;
+            background-color: chartreuse;
+            animation: shine 10s ease infinite;
+        }
+        @keyframes shine{
+            0%{
+                border-radius: 50%;
+                background-image: url("img/dore.png");
+            }
+            50%
+            {
+                border-radius: 0%;
+                background-image: url("img/shin.jpeg");
+            }
+            100%{
+                border-radius: 50%;
+                background-image: url("img/dora.jfif");
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="anime">
+    </div>
+</body>
+</html>
